@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard;
+package com.example.gads_practice_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,15 +13,12 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
+        //the delay time is 3s
+        new Handler().postDelayed(() -> {
 
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-            //the delay time is 3s
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
         }, 2000);
 
     }

@@ -1,6 +1,6 @@
-package com.joshbillionz.gadsleaderboard.services;
-import com.joshbillionz.gadsleaderboard.models.HoursLeader;
-import com.joshbillionz.gadsleaderboard.models.SkillIQLeader;
+package com.example.gads_practice_project.services;
+import com.example.gads_practice_project.models.HoursLeader;
+import com.example.gads_practice_project.models.SkillIQLeader;
 
 import java.util.List;
 

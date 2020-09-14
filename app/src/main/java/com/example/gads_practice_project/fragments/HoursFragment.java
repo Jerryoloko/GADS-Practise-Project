@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard.fragments;
+package com.example.gads_practice_project.fragments;
 
 import android.os.Bundle;
 
@@ -15,11 +15,11 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.joshbillionz.gadsleaderboard.R;
-import com.joshbillionz.gadsleaderboard.adapters.HoursAdapter;
-import com.joshbillionz.gadsleaderboard.models.HoursLeader;
-import com.joshbillionz.gadsleaderboard.services.LeadersService;
-import com.joshbillionz.gadsleaderboard.services.ServiceBuilder;
+import com.example.gads_practice_project.R;
+import com.example.gads_practice_project.adapters.HoursAdapter;
+import com.example.gads_practice_project.models.HoursLeader;
+import com.example.gads_practice_project.services.LeadersService;
+import com.example.gads_practice_project.services.ServiceBuilder;
 
 import java.util.List;
 

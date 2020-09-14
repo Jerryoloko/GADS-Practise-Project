@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard;
+package com.example.gads_practice_project;
 
 import org.junit.Test;
 

@@ -15,7 +15,7 @@
         android:layout_width="0dp"
         android:layout_height="44dp"
         android:gravity="center"
-        android:text="Project Submission"
+        android:text="@string/project_submission"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -46,7 +46,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/firstName"
+                    android:id="@+id/first_Name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="FirstName" />
@@ -58,7 +58,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/lastName"
+                    android:id="@+id/last_Name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="LastName" />
@@ -71,7 +71,7 @@
             android:layout_marginTop="36dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/email"
+                android:id="@+id/email_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email Address" />

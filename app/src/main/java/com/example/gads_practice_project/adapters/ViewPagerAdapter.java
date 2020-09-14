@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard.adapters;
+package com.example.gads_practice_project.adapters;
 
 import java.util.ArrayList;
 

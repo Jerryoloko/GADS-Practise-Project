@@ -1,14 +1,13 @@
-package com.joshbillionz.gadsleaderboard.adapters;
+package com.example.gads_practice_project.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import com.joshbillionz.gadsleaderboard.R;
-import com.joshbillionz.gadsleaderboard.models.HoursLeader;
+import com.example.gads_practice_project.R;
+import com.example.gads_practice_project.models.HoursLeader;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

@@ -1,16 +1,14 @@
-package com.joshbillionz.gadsleaderboard;
+package com.example.gads_practice_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import android.app.ActionBar;
 import android.app.Dialog;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.telecom.Conference;
 import android.util.Patterns;
 import android.view.View;
 import android.view.Window;
@@ -19,14 +17,10 @@ import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
-import com.joshbillionz.gadsleaderboard.adapters.HoursAdapter;
-import com.joshbillionz.gadsleaderboard.models.HoursLeader;
-import com.joshbillionz.gadsleaderboard.services.LeadersService;
-import com.joshbillionz.gadsleaderboard.services.ServiceBuilder;
+import com.example.gads_practice_project.services.LeadersService;
+import com.example.gads_practice_project.services.ServiceBuilder;
 
 import org.jetbrains.annotations.NotNull;
-
-import java.util.List;
 
 public class SubmitActivity extends AppCompatActivity {
 
@@ -43,9 +37,9 @@ public class SubmitActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_submit);
 
-        mFirstNameET = findViewById(R.id.firstName);
-        mLastNameET = findViewById(R.id.lastName);
-        mEmailET = findViewById(R.id.email);
+        mFirstNameET = findViewById(R.id.first_Name);
+        mLastNameET = findViewById(R.id.last_Name);
+        mEmailET = findViewById(R.id.email_address);
         mGithubET = findViewById(R.id.githubLink);
         MaterialButton button = findViewById(R.id.submitButton);
 

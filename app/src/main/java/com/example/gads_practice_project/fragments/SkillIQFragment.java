@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard.fragments;
+package com.example.gads_practice_project.fragments;
 
 import android.os.Bundle;
 
@@ -16,11 +16,11 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.joshbillionz.gadsleaderboard.R;
-import com.joshbillionz.gadsleaderboard.adapters.SkillIQAdapter;
-import com.joshbillionz.gadsleaderboard.models.SkillIQLeader;
-import com.joshbillionz.gadsleaderboard.services.ServiceBuilder;
-import com.joshbillionz.gadsleaderboard.services.LeadersService;
+import com.example.gads_practice_project.R;
+import com.example.gads_practice_project.adapters.SkillIQAdapter;
+import com.example.gads_practice_project.models.SkillIQLeader;
+import com.example.gads_practice_project.services.ServiceBuilder;
+import com.example.gads_practice_project.services.LeadersService;
 
 import java.util.List;
 

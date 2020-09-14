@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Gads LeaderBoard</string>
+    <string name="jeremiah_olokodana">Jeremiah Olokodana</string>
+    <string name="_31_learning_hours_nigeria">31 learning hours, Nigeria</string>
+    <string name="project_submission">Project Submission</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

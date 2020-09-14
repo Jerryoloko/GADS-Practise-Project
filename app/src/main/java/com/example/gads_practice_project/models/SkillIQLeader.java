@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard.models;
+package com.example.gads_practice_project.models;
 
 public class SkillIQLeader {
 

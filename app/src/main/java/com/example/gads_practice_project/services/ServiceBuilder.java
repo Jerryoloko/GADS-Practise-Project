@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard.services;
+package com.example.gads_practice_project.services;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

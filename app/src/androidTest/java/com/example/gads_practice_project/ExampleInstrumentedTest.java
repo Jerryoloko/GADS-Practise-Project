@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard;
+package com.example.gads_practice_project;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.joshbillionz.gadsleaderboard", appContext.getPackageName());
+        assertEquals("com.example.gadsleaderboard", appContext.getPackageName());
     }
 }

@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:backgroundTint="@color/colorgrey"
+            android:backgroundTint="@color/colorGrey"
             android:paddingBottom="2dp"
             android:paddingTop="2dp"
             android:text="submit"

@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard.services;
+package com.example.gads_practice_project.services;
 
 import retrofit2.Call;
 import retrofit2.http.Field;
@@ -6,10 +6,10 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.Url;
 
 public interface SubmitService {
-    static final String TEST_EMAIL_ADDRESS = "entry.1471656098";
-    static final String TEST_NAME ="entry.1704950884";
-    static final String TEST_LAST_NAME = "entry.1245871871";
-    static final String TEST_LINK_TO_PROJECT = "entry.1870768409";
+    String TEST_EMAIL_ADDRESS = "entry.1471656098";
+    String TEST_NAME ="entry.1704950884";
+    String TEST_LAST_NAME = "entry.1245871871";
+    String TEST_LINK_TO_PROJECT = "entry.1870768409";
 
     @FormUrlEncoded
     Call<Void> submitForm(@Url String formURL,

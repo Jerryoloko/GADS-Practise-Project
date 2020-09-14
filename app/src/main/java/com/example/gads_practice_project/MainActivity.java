@@ -1,4 +1,4 @@
-package com.joshbillionz.gadsleaderboard;
+package com.example.gads_practice_project;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,9 +11,9 @@ import android.view.View;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.joshbillionz.gadsleaderboard.adapters.ViewPagerAdapter;
-import com.joshbillionz.gadsleaderboard.fragments.HoursFragment;
-import com.joshbillionz.gadsleaderboard.fragments.SkillIQFragment;
+import com.example.gads_practice_project.adapters.ViewPagerAdapter;
+import com.example.gads_practice_project.fragments.HoursFragment;
+import com.example.gads_practice_project.fragments.SkillIQFragment;
 
 public class MainActivity extends AppCompatActivity {
 
